@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+.container nav {
+    border-radius: 20%;
+}
+
+.container button {
+    border: none;
+}
+
+.icons-size {
+  min-width: 50px;
+  max-height: 50px;
+  color: white;
+}
+
+.icons-box {
+  border-radius:20px;
+  background-color: #002459;
+}
+
+.container-v {
+  background-color: #dfdede;
+  padding-bottom: 30px;
+}
+
+.container-v.video {
+  width: 100%;
+  height: 100%;
+}
+
+.text-box h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(92, 92, 92);
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: 'Square Peg', cursive;
+  font-size: 180px;
+  font-weight: 900;
+  mix-blend-mode: multiply;
+}
+
+
+.john-cena img {
+  min-height: 80%;
+  min-width: 90%;
+}
+
+.formSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 50%;
+}
+
+.jc-bg-color {
+  background: #dfdede;
+  padding-bottom: 30px;
+}
+
+.container-text {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer {
+  background-image: linear-gradient(to right, #002459, #003687);
+  color: rgba(240, 248, 255, 0.681);
+}
+
+.video {
+  background-color: rgba(128, 128, 128, 0.41);
+  padding-bottom: 3rem;
+}
+
+.row {
+  padding-top: 2rem;
+}
+
+.card-body button {
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card-body {
+  font-size: 12px;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.card-body img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.card-body p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bg-color {
+  background: #dfdede;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+}
+
+/* containers button add */
+
+.cssbuttons-io-button.add {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  margin-right: 20px;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 167, 62, 1) 0%,
+    rgba(102, 247, 113, 1) 100%
+  );
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 6px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+/* containers button cancel */
+
+.cssbuttons-io-button.cancel {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgb(167, 20, 20) 0%,
+    rgb(247, 102, 102) 100%
+  );
+  border: none;
+  /* box-shadow: 0 0.7em 1.5em -0.5em #a71414; */
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 6px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #a7141498;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #a7141498;
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-text h1 {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.589);
+    font-family: "Square Peg", cursive;
+    font-size: 10rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .text-box h1{
+    
+    font-size: 80px;
+    
+  }
+  
+}
