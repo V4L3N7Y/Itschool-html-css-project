@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 
-.container nav {
-    border-radius: 20%;
-}
 
 .container button {
     border: none;
@@ -15,18 +12,13 @@
 }
 
 .icons-box {
-  border-radius:20px;
+  border-radius:10px;
   background-color: #002459;
 }
 
 .container-v {
   background-color: #dfdede;
   padding-bottom: 30px;
-}
-
-.container-v.video {
-  width: 100%;
-  height: 100%;
 }
 
 .text-box h1{
@@ -43,26 +35,9 @@
   mix-blend-mode: multiply;
 }
 
-
-.john-cena img {
-  min-height: 80%;
-  min-width: 90%;
-}
-
-.formSection {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  max-width: 50%;
-}
-
 .jc-bg-color {
   background: #dfdede;
   padding-bottom: 30px;
-}
-
-.container-text {
-  text-align: center;
-  padding-top: 2rem;
 }
 
 .footer {
@@ -77,17 +52,6 @@
 
 .row {
   padding-top: 2rem;
-}
-
-.card-body button {
-  justify-content: center;
-  flex-direction: row;
-}
-
-.card-body {
-  font-size: 12px;
-  padding-bottom: 2rem;
-  text-align: center;
 }
 
 .card-body img {
@@ -188,10 +152,8 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .text-box h1{
-    
+  .text-box h1{  
     font-size: 80px;
-    
   }
   
 }
